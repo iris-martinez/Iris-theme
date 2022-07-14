@@ -1,0 +1,17 @@
+global-styling:
+  version: VERSION
+  js:
+    js/global.js: {}
+  css:
+    theme:
+      css/style.css: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+
+bootstrap_cdn:
+  js:
+    'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js': { type: external, attributes: { crossorigin: anonymous } }
+  css:
+    component:
+      'https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css': { type: external , attributes: { crossorigin: anonymous } }

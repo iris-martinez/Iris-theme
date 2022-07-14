@@ -1,0 +1,16 @@
+name: Iris
+type: theme
+description: 'Custom theme for new projects'
+core_version_requirement: ^8 || ^9
+
+base theme: classy
+regions:
+  header: 'Header'
+  highlighted: Highlighted
+  content: 'Content'
+  footer: 'Footer'
+  invisible: 'Invisible'
+
+libraries:
+  - iris/global-styling
+  - iris/bootstrap_cdn
